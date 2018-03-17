@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: 10%;
   margin-right: 10%;
   height: 70px;
@@ -107,6 +107,16 @@ div.main-section-four-container {
   justify-content: center;
 }
 
+section.main-section-five {
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url("../../img/figure2.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 div.main-portfolio-container {
   margin-left: 50px;
 }
@@ -159,16 +169,6 @@ div.logo-three {
 div.logo-five {
   border-left: 1px solid #e2e2e2;
   border-right: 1px solid #e2e2e2;
-}
-
-section.main-section-five {
-  margin-left: 0;
-  margin-right: 0;
-  background-image: url("../../img/figure2.png");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 figure.main-section-one-figure {
