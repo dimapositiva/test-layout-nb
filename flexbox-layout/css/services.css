@@ -1,4 +1,8 @@
 div.main {
-  height: 400px;
+  height: 450px;
   margin-top: 0;
+}
+
+header {
+  margin-top: 10px;
 }
