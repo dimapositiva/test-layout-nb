@@ -726,6 +726,7 @@ textarea {
   font-weight: bold;
   background-color: #e8effc;
   box-shadow: none;
+  resize: none;
 }
 
 button.main-learn-more-button {
