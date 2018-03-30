@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 body {
+  min-width: 1280px;
+  max-width: 1366px;
+  margin: auto;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -10,14 +13,16 @@ body {
 }
 
 header {
-  margin-top: 15px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
   height: 70px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+  background-color: #e8effc;
 }
 
 footer {
@@ -818,12 +823,12 @@ a.main-nav-logo-link {
 }
 
 a.main-nav-item:hover {
-  background-color: #64A9DF;
+  background-color: #9adaeb;
   color: #fff;
 }
 
 a.main-header-link:hover {
-  background-color: #64A9DF;
+  background-color: #9adaeb;
   color: #fff;
 }
 
